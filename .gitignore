@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+frames/
+previews/
+out/
+assets/audio/
+assets/motion/
+assets/plates/
+assets/tts/
+assets/vo/
+assets/models/
+edit/.codecut/
+edit/out/
