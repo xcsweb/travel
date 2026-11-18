@@ -1,0 +1,599 @@
+{
+  "schemaVersion": 1,
+  "revision": 16,
+  "name": "shijie2",
+  "assets": [
+    {
+      "id": "ref",
+      "kind": "video",
+      "path": "../assets/ref.mp4",
+      "metadata": {
+        "probedAt": "2026-11-18T11:38:47.432Z",
+        "fingerprint": {
+          "size": 4348278,
+          "mtimeMs": 1795001924852.8564
+        },
+        "duration": 22.753991,
+        "size": 4348278,
+        "formatName": "mov,mp4,m4a,3gp,3g2,mj2",
+        "bitRate": 1528796,
+        "streams": [
+          {
+            "index": 0,
+            "codecType": "video",
+            "codecName": "h264",
+            "width": 960,
+            "height": 720,
+            "frameRate": 56.161764705882355,
+            "duration": 22.666667,
+            "bitRate": 1392837
+          },
+          {
+            "index": 1,
+            "codecType": "audio",
+            "codecName": "aac",
+            "sampleRate": 44100,
+            "channels": 2,
+            "channelLayout": "stereo",
+            "duration": 22.753991,
+            "bitRate": 128269
+          }
+        ]
+      }
+    },
+    {
+      "id": "v01",
+      "kind": "video",
+      "path": "../../../assets/stock_v/v01.mp4",
+      "metadata": {
+        "probedAt": "2026-11-18T11:38:48.876Z",
+        "fingerprint": {
+          "size": 10232381,
+          "mtimeMs": 1795001812644.3855
+        },
+        "duration": 2.633333,
+        "size": 10232381,
+        "formatName": "mov,mp4,m4a,3gp,3g2,mj2",
+        "bitRate": 31085718,
+        "streams": [
+          {
+            "index": 0,
+            "codecType": "video",
+            "codecName": "h264",
+            "width": 1080,
+            "height": 1920,
+            "frameRate": 30,
+            "duration": 2.633333,
+            "bitRate": 31079668
+          }
+        ]
+      }
+    },
+    {
+      "id": "v02",
+      "kind": "video",
+      "path": "../../../assets/stock_v/v02.mp4",
+      "metadata": {
+        "probedAt": "2026-11-18T11:38:50.453Z",
+        "fingerprint": {
+          "size": 5583042,
+          "mtimeMs": 1795001821136.4214
+        },
+        "duration": 2.633333,
+        "size": 5583042,
+        "formatName": "mov,mp4,m4a,3gp,3g2,mj2",
+        "bitRate": 16961142,
+        "streams": [
+          {
+            "index": 0,
+            "codecType": "video",
+            "codecName": "h264",
+            "width": 1080,
+            "height": 1920,
+            "frameRate": 30,
+            "duration": 2.633333,
+            "bitRate": 16955349
+          }
+        ]
+      }
+    },
+    {
+      "id": "v03",
+      "kind": "video",
+      "path": "../../../assets/stock_v/v03.mp4",
+      "metadata": {
+        "probedAt": "2026-11-18T11:38:52.045Z",
+        "fingerprint": {
+          "size": 6858616,
+          "mtimeMs": 1795001829296.4556
+        },
+        "duration": 2.633333,
+        "size": 6858616,
+        "formatName": "mov,mp4,m4a,3gp,3g2,mj2",
+        "bitRate": 20836304,
+        "streams": [
+          {
+            "index": 0,
+            "codecType": "video",
+            "codecName": "h264",
+            "width": 1080,
+            "height": 1920,
+            "frameRate": 30,
+            "duration": 2.633333,
+            "bitRate": 20830450
+          }
+        ]
+      }
+    },
+    {
+      "id": "v04",
+      "kind": "video",
+      "path": "../../../assets/stock_v/v04.mp4",
+      "metadata": {
+        "probedAt": "2026-11-18T11:38:53.546Z",
+        "fingerprint": {
+          "size": 7577638,
+          "mtimeMs": 1795001838368.4937
+        },
+        "duration": 2.633333,
+        "size": 7577638,
+        "formatName": "mov,mp4,m4a,3gp,3g2,mj2",
+        "bitRate": 23020675,
+        "streams": [
+          {
+            "index": 0,
+            "codecType": "video",
+            "codecName": "h264",
+            "width": 1080,
+            "height": 1920,
+            "frameRate": 30,
+            "duration": 2.633333,
+            "bitRate": 23014882
+          }
+        ]
+      }
+    },
+    {
+      "id": "v05",
+      "kind": "video",
+      "path": "../../../assets/stock_v/v05.mp4",
+      "metadata": {
+        "probedAt": "2026-11-18T11:38:54.945Z",
+        "fingerprint": {
+          "size": 8282320,
+          "mtimeMs": 1795001847572.5325
+        },
+        "duration": 2.633333,
+        "size": 8282320,
+        "formatName": "mov,mp4,m4a,3gp,3g2,mj2",
+        "bitRate": 25161481,
+        "streams": [
+          {
+            "index": 0,
+            "codecType": "video",
+            "codecName": "h264",
+            "width": 1080,
+            "height": 1920,
+            "frameRate": 30,
+            "duration": 2.633333,
+            "bitRate": 25155733
+          }
+        ]
+      }
+    },
+    {
+      "id": "v06",
+      "kind": "video",
+      "path": "../../../assets/stock_v/v06.mp4",
+      "metadata": {
+        "probedAt": "2026-11-18T11:38:56.506Z",
+        "fingerprint": {
+          "size": 5471196,
+          "mtimeMs": 1795001856340.5693
+        },
+        "duration": 2.633333,
+        "size": 5471196,
+        "formatName": "mov,mp4,m4a,3gp,3g2,mj2",
+        "bitRate": 16621357,
+        "streams": [
+          {
+            "index": 0,
+            "codecType": "video",
+            "codecName": "h264",
+            "width": 1080,
+            "height": 1920,
+            "frameRate": 30,
+            "duration": 2.633333,
+            "bitRate": 16615613
+          }
+        ]
+      }
+    },
+    {
+      "id": "v07",
+      "kind": "video",
+      "path": "../../../assets/stock_v/v07.mp4",
+      "metadata": {
+        "probedAt": "2026-11-18T11:38:58.043Z",
+        "fingerprint": {
+          "size": 5764361,
+          "mtimeMs": 1795001864748.6045
+        },
+        "duration": 2.633333,
+        "size": 5764361,
+        "formatName": "mov,mp4,m4a,3gp,3g2,mj2",
+        "bitRate": 17511985,
+        "streams": [
+          {
+            "index": 0,
+            "codecType": "video",
+            "codecName": "h264",
+            "width": 1080,
+            "height": 1920,
+            "frameRate": 30,
+            "duration": 2.633333,
+            "bitRate": 17506216
+          }
+        ]
+      }
+    },
+    {
+      "id": "v08",
+      "kind": "video",
+      "path": "../../../assets/stock_v/v08.mp4",
+      "metadata": {
+        "probedAt": "2026-11-18T11:38:59.582Z",
+        "fingerprint": {
+          "size": 7307293,
+          "mtimeMs": 1795001874088.6438
+        },
+        "duration": 2.6,
+        "size": 7307293,
+        "formatName": "mov,mp4,m4a,3gp,3g2,mj2",
+        "bitRate": 22483978,
+        "streams": [
+          {
+            "index": 0,
+            "codecType": "video",
+            "codecName": "h264",
+            "width": 1080,
+            "height": 1920,
+            "frameRate": 30,
+            "duration": 2.6,
+            "bitRate": 22478027
+          }
+        ]
+      }
+    },
+    {
+      "id": "v09",
+      "kind": "video",
+      "path": "../../../assets/stock_v/v09.mp4",
+      "metadata": {
+        "probedAt": "2026-11-18T11:39:01.146Z",
+        "fingerprint": {
+          "size": 6090742,
+          "mtimeMs": 1795001882816.6804
+        },
+        "duration": 2.633333,
+        "size": 6090742,
+        "formatName": "mov,mp4,m4a,3gp,3g2,mj2",
+        "bitRate": 18503522,
+        "streams": [
+          {
+            "index": 0,
+            "codecType": "video",
+            "codecName": "h264",
+            "width": 1080,
+            "height": 1920,
+            "frameRate": 30,
+            "duration": 2.633333,
+            "bitRate": 18497668
+          }
+        ]
+      }
+    },
+    {
+      "id": "v10",
+      "kind": "video",
+      "path": "../../../assets/stock_v/v10.mp4",
+      "metadata": {
+        "probedAt": "2026-11-18T11:39:02.555Z",
+        "fingerprint": {
+          "size": 5790013,
+          "mtimeMs": 1795001892888.723
+        },
+        "duration": 2.6,
+        "size": 5790013,
+        "formatName": "mov,mp4,m4a,3gp,3g2,mj2",
+        "bitRate": 17815424,
+        "streams": [
+          {
+            "index": 0,
+            "codecType": "video",
+            "codecName": "h264",
+            "width": 1080,
+            "height": 1920,
+            "frameRate": 30,
+            "duration": 2.6,
+            "bitRate": 17809547
+          }
+        ]
+      }
+    },
+    {
+      "id": "v11",
+      "kind": "video",
+      "path": "../../../assets/stock_v/v11.mp4",
+      "metadata": {
+        "probedAt": "2026-11-18T11:39:04.108Z",
+        "fingerprint": {
+          "size": 8823244,
+          "mtimeMs": 1795001901048.7568
+        },
+        "duration": 2.633333,
+        "size": 8823244,
+        "formatName": "mov,mp4,m4a,3gp,3g2,mj2",
+        "bitRate": 26804795,
+        "streams": [
+          {
+            "index": 0,
+            "codecType": "video",
+            "codecName": "h264",
+            "width": 1080,
+            "height": 1920,
+            "frameRate": 30,
+            "duration": 2.633333,
+            "bitRate": 26798867
+          }
+        ]
+      }
+    },
+    {
+      "id": "v12",
+      "kind": "video",
+      "path": "../../../assets/stock_v/v12.mp4",
+      "metadata": {
+        "probedAt": "2026-11-18T11:39:06.012Z",
+        "fingerprint": {
+          "size": 5139738,
+          "mtimeMs": 1795001909148.7908
+        },
+        "duration": 2.633333,
+        "size": 5139738,
+        "formatName": "mov,mp4,m4a,3gp,3g2,mj2",
+        "bitRate": 15614395,
+        "streams": [
+          {
+            "index": 0,
+            "codecType": "video",
+            "codecName": "h264",
+            "width": 1080,
+            "height": 1920,
+            "frameRate": 30,
+            "duration": 2.633333,
+            "bitRate": 15608664
+          }
+        ]
+      }
+    },
+    {
+      "id": "v13",
+      "kind": "video",
+      "path": "../../../assets/stock_v/v13.mp4",
+      "metadata": {
+        "probedAt": "2026-11-18T11:39:07.431Z",
+        "fingerprint": {
+          "size": 5410992,
+          "mtimeMs": 1795001917952.8276
+        },
+        "duration": 2.633333,
+        "size": 5410992,
+        "formatName": "mov,mp4,m4a,3gp,3g2,mj2",
+        "bitRate": 16438458,
+        "streams": [
+          {
+            "index": 0,
+            "codecType": "video",
+            "codecName": "h264",
+            "width": 1080,
+            "height": 1920,
+            "frameRate": 30,
+            "duration": 2.633333,
+            "bitRate": 16432663
+          }
+        ]
+      }
+    }
+  ],
+  "tracks": [
+    {
+      "id": "v1",
+      "kind": "video",
+      "name": "Video 1",
+      "clips": [
+        {
+          "id": "s01",
+          "type": "video",
+          "assetId": "v01",
+          "start": 0,
+          "duration": 1.8
+        },
+        {
+          "id": "s02",
+          "type": "video",
+          "assetId": "v02",
+          "start": 1.8,
+          "duration": 1.8
+        },
+        {
+          "id": "s03",
+          "type": "video",
+          "assetId": "v03",
+          "start": 3.6,
+          "duration": 1.8
+        },
+        {
+          "id": "s04",
+          "type": "video",
+          "assetId": "v04",
+          "start": 5.4,
+          "duration": 1.8,
+          "scale": 1.05,
+          "position": {
+            "x": -27,
+            "y": -48
+          }
+        },
+        {
+          "id": "s05",
+          "type": "video",
+          "assetId": "v05",
+          "start": 7.2,
+          "duration": 1.8,
+          "speed": 0.55,
+          "sourceStart": 0.805
+        },
+        {
+          "id": "s06",
+          "type": "video",
+          "assetId": "v06",
+          "start": 9,
+          "duration": 1.8
+        },
+        {
+          "id": "s07",
+          "type": "video",
+          "assetId": "v07",
+          "start": 10.8,
+          "duration": 1.8,
+          "speed": 0.5,
+          "sourceStart": 0.85
+        },
+        {
+          "id": "s08",
+          "type": "video",
+          "assetId": "v08",
+          "start": 12.6,
+          "duration": 1.8
+        },
+        {
+          "id": "s09",
+          "type": "video",
+          "assetId": "v09",
+          "start": 14.4,
+          "duration": 1.8,
+          "scale": 1.05,
+          "position": {
+            "x": -27,
+            "y": -48
+          }
+        },
+        {
+          "id": "s10",
+          "type": "video",
+          "assetId": "v10",
+          "start": 16.2,
+          "duration": 1.8,
+          "speed": 1.25,
+          "sourceStart": 0.175
+        },
+        {
+          "id": "s11",
+          "type": "video",
+          "assetId": "v11",
+          "start": 18,
+          "duration": 1.8
+        },
+        {
+          "id": "s12",
+          "type": "video",
+          "assetId": "v12",
+          "start": 19.8,
+          "duration": 1.8
+        },
+        {
+          "id": "s13",
+          "type": "video",
+          "assetId": "v13",
+          "start": 21.6,
+          "duration": 1.15
+        }
+      ]
+    },
+    {
+      "id": "v2",
+      "kind": "video",
+      "name": "Video 2",
+      "clips": []
+    },
+    {
+      "id": "a1",
+      "kind": "audio",
+      "name": "Audio 1",
+      "clips": [
+        {
+          "id": "refaudio",
+          "type": "audio",
+          "assetId": "ref",
+          "start": 0,
+          "duration": 22.75,
+          "volume": 1,
+          "fadeOut": 0.7
+        }
+      ]
+    },
+    {
+      "id": "t1",
+      "kind": "video",
+      "name": "Titles",
+      "clips": [
+        {
+          "id": "tx1",
+          "type": "text",
+          "text": "往前",
+          "start": 0.15,
+          "duration": 3.25,
+          "fontFile": "fonts/NotoBlack.ttc",
+          "fontSize": 150,
+          "color": "#FFFFFF",
+          "align": "center"
+        },
+        {
+          "id": "tx2",
+          "type": "text",
+          "text": "别回头",
+          "start": 7.4,
+          "duration": 3.2,
+          "fontFile": "fonts/NotoBlack.ttc",
+          "fontSize": 140,
+          "color": "#FFFFFF",
+          "align": "center"
+        },
+        {
+          "id": "tx3",
+          "type": "text",
+          "text": "回头",
+          "start": 16.4,
+          "duration": 3.2,
+          "fontFile": "fonts/NotoBlack.ttc",
+          "fontSize": 160,
+          "color": "#FFFFFF",
+          "align": "center"
+        }
+      ]
+    }
+  ],
+  "output": {
+    "path": "out/shijie_cover_v2_1080x1920.mp4",
+    "format": "mp4",
+    "videoCodec": "h264",
+    "audioCodec": "aac",
+    "width": 1080,
+    "height": 1920,
+    "frameRate": 30,
+    "pixelFormat": "yuv420p",
+    "audioSampleRate": 48000,
+    "audioChannels": 2
+  }
+}
