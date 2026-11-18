@@ -3,11 +3,31 @@ __pycache__/
 frames/
 previews/
 out/
+
+# 媒体中间件与离线模型（可重新生成，不入库）
 assets/audio/
 assets/motion/
 assets/plates/
 assets/tts/
 assets/vo/
 assets/models/
+
+# 第三方授权素材：可下载，不随仓库分发
+assets/music/
+assets/sfx/
+assets/stock/
+assets/stock_v/
+assets/story/
+assets/story2/
+
+# codecut 运行产物、系统字体副本、引用素材
 edit/.codecut/
 edit/out/
+edit/fonts/
+projects/*/edit/.codecut/
+projects/*/edit/out/
+projects/*/edit/fonts/
+projects/*/assets/
+projects/*/audio/*.wav
+projects/*/audio/*.mp3
+projects/*/audio/vo/
