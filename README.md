@@ -33,6 +33,7 @@ travel/
 │   ├── make_stock_shots.py # 按固定节奏重切素材（平铺版）
 │   ├── voice.py          # Matcha-TTS 旁白
 │   ├── voice_kokoro.py   # Kokoro 旁白（音色更自然）
+│   ├── voice_doubao.py   # 豆包复刻音色旁白（云 TTS，凭据放仓库外）
 │   ├── audio.py          # 原创钢琴/氛围垫/风声 + 混音 + ducking
 │   ├── episode_audio.py  # 单集音频流水线
 │   └── codecut_edit.py   # 调用 codecut 的封装
@@ -54,9 +55,13 @@ cd codecut && npm ci && npm run build && cd ..
 python3 travel/build/analyze_audio.py projects/xiancheng/audio/bgm.wav
 #    → bpm / bar_length / bars[] / silence_from
 
-# 2. 写旁白（二选一）
+# 2. 写旁白（三选一）
 python3 travel/build/voice.py
 python3 travel/build/voice_kokoro.py
+
+# 云 TTS：先在豆包控制台复刻音色，凭据写在仓库外（如 ~/.volc_local/cred.env）
+python3 travel/build/voice_doubao.py --env-file ~/.volc_local/cred.env \
+  --text "璧山秀湖夜色美，璧山兔香。" --out assets/tts/demo.mp3
 
 # 3. 生成运镜片段
 python3 travel/build/make_motion.py
@@ -80,7 +85,7 @@ node ../codecut/dist/cli.js render --project projects/<name>/edit
 
 ## 已知限制
 
-- 旁白是 TTS，不是真人；需要真人质感只能录真人或换云 TTS
+- 本地 TTS 不是真人；要真人质感用 `voice_doubao.py` 走豆包复刻音色（云 TTS，按量计费）
 - 素材库给不了「同一个人走完全程」的连续性，故事感受限于素材
 - 4GB 内存下多轨 1080×1920 渲染容易 OOM，用 `travel/bin/ffmpeg` 包装（单线程）再渲染
 - 第三方音乐与素材不入库，需要自行下载；BGM 授权见各工程 README
